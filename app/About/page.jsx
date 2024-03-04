@@ -1,7 +1,15 @@
 import React from "react";
+import Navbar from "../container/Navbar";
+import Footer from "../container/Footer";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <main className="About">
+      <Navbar />
+      About
+      <Footer />
+    </main>
+  );
 };
 
 export default About;

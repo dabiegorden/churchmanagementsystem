@@ -1,15 +1,14 @@
 import React from "react";
-import { AboutUs, Donate, Events, Hero } from "./components";
-import Sermons from "./Sermons/page";
+import { Hero } from "./components";
+import Navbar from "./container/Navbar";
+import Footer from "./container/Footer";
 
 const Home = () => {
   return (
-    <main>
+    <main className="home">
+      <Navbar />
       <Hero />
-      <AboutUs />
-      <Donate />
-      <Events />
-      <Sermons />
+      <Footer />
     </main>
   );
 };

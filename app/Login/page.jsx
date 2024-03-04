@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import React from "react";
+import Navbar from "../container/Navbar";
+import Footer from "../container/Footer";
 
 export default function Login() {
   return (
-    <>
+    <div className="contents">
+      <Navbar />
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 mt-[5rem]">
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm bg-white px-8 py-4 shadow-md">
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 mb-8">
@@ -96,6 +99,11 @@ export default function Login() {
           </p>
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
+
+// Host:127.0.0.1
+//Port:3306
+//User:root

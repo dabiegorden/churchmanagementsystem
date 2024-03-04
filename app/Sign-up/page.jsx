@@ -1,9 +1,12 @@
 import Link from "next/link";
 import React from "react";
+import Navbar from "../container/Navbar";
+import Footer from "../container/Footer";
 
 const SignUp = () => {
   return (
-    <main>
+    <main className="main_page">
+      <Navbar />
       <section class="mb-[5rem] mt-[7rem]">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
           {/* <Link
@@ -148,6 +151,7 @@ const SignUp = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 };

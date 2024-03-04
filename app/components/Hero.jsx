@@ -14,7 +14,7 @@ const Hero = () => {
         </h1>
         <p className="tracking-wide text-xl mb-8 capitalize">
           This church is located in sunyani but have other branches
-          <br /> such as berekum, drobo and accra.
+          <br /> in berekum, drobo and accra.
         </p>
         <Link
           href={"/"}

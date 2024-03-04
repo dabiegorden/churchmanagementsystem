@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  list-style-type: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.links {
+  @apply hover:text-red-600 transition duration-200 ease-in text-[1.08rem];
+}
+
+/* css slider on mobiles */
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+table td {
+  padding: 10px;
+}
+
+.status {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.Pending {
+  background-color: #f7cb7375;
+}
+.Done {
+  background-color: #afd6ee75;
+}
+.Cancelled {
+  background-color: #f7737375;
+}
+
+/* rightside bar styles */
+.containers {
+  position: fixed;
+  margin-right: 1rem;
+}
+
+.item {
+  position: relative;
+  background-color: linear-gradient(to top, #182237, #253352);
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.bgContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  font-size: 12px;
+  color: #b7bac1;
+  font-weight: 200;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #b7bac1;
+  font-weight: 200;
+}
+
+.notification {
+  font-weight: bold;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #b7bac1;
+}
+
+/* dashboard styles */
+/* :root {
+  --bg: #151c2c;
+  --bgSoft: #182237;
+  --text: #fff;
+  --textSoft: #b7bac1;
+}
+
+.admin_dashboard {
+  background-color: var(--bg);
+  height: 100vh;
+} */
+
+.button {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  background-color: #5d57c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: max-content;
+  font-size: 13px;
+}

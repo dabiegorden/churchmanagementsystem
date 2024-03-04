@@ -1,7 +1,15 @@
 import React from "react";
+import Navbar from "../container/Navbar";
+import Footer from "../container/Footer";
 
 const Sermons = () => {
-  return <div>Sermons</div>;
+  return (
+    <main className="Sermons">
+      <Navbar />
+      Sermons
+      <Footer />
+    </main>
+  );
 };
 
 export default Sermons;
