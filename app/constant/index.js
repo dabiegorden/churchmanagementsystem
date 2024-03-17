@@ -10,39 +10,39 @@ export const menuItems = [
   {
     title: "Pages",
     list: [
-      // {
-      //   title: "Dashboard",
-      //   path: "/Admin/Dashboard",
-      //   icon: <MdDashboard />,
-      // },
+      {
+        title: "Dashboard",
+        path: "/admin-dashboard",
+        icon: <MdDashboard />,
+      },
       {
         title: "Members",
-        path: "/Admin/Members",
+        path: "/admin-dashboard/Members",
         icon: <HiOutlineUsers />,
       },
       {
         title: "Events",
-        path: "/Admin/Events",
+        path: "/admin-dashboard/Events",
         icon: <SiEventstore />,
       },
       {
         title: "Finances",
-        path: "/Admin/Finances",
+        path: "/admin-dashboard/Finances",
         icon: <SiZcash />,
       },
       {
         title: "Donate",
-        path: "/Admin/Donate",
+        path: "/admin-dashboard/Donate",
         icon: <FaDonate />,
       },
       {
         title: "Sermons",
-        path: "/Admin/Sermons",
+        path: "/admin-dashboard/Sermons",
         icon: <FaServicestack />,
       },
       {
         title: "Settings",
-        path: "/Admin/Settings",
+        path: "/admin-dashboard/Settings",
         icon: <IoSettingsOutline />,
       },
     ],

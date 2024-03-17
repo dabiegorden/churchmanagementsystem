@@ -144,3 +144,11 @@ table td {
   width: max-content;
   font-size: 13px;
 }
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding: 20px;
+}

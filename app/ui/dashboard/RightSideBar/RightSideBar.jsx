@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import riImage from "../../../public/assets/bg_image.png";
+import riImage from "../../../../public/assets/bg_image.png";
 import Link from "next/link";
 import { CgMail } from "react-icons/cg";
 

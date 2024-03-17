@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import userImage from "../../../public/assets/832.jpg";
+import userImage from "../../../../public/assets/832.jpg";
 
 const Transactions = () => {
   return (

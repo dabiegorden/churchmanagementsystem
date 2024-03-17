@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "../dashboard/Card/Card";
-import RightSideBar from "../dashboard/RightSideBar/RightSideBar";
-import Transactions from "../dashboard/Transactions/Transactions";
-import Chat from "../dashboard/Chat/Chat";
+import Card from "../ui/dashboard/Card/Card";
+import Transactions from "../ui/dashboard/Transactions/Transactions";
+import RightSideBar from "../ui/dashboard/RightSideBar/RightSideBar";
+import Chat from "../ui/dashboard/Chat/Chat";
 
 const Admindashboard = () => {
   return (

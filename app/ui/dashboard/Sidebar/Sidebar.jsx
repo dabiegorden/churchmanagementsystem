@@ -2,7 +2,7 @@ import React from "react";
 import { menuItems } from "@/app/constant";
 import MenuLinks from "./menuLinks/MenuLinks";
 import Image from "next/image";
-import userImage from "../../../public/assets/832.jpg";
+import userImage from "../../../../public/assets/832.jpg";
 import { MdLogout } from "react-icons/md";
 
 const Sidebar = () => {
